@@ -52,11 +52,15 @@ multiple copies of a particular gene are reported naturally in the output.
 
 See REF for more details about this pipeline.
 
+[\[top\]](#content)
+
 # Gene coverage
 
 * __HLA__ genes: HLA-A,HLA-B,HLA-C,HLA-DMA,HLA-DMB,HLA-DOA,HLA-DOB,HLA-DPA1,HLA-DPA2,HLA-DPB1,HLA-DPB2,HLA-DQA1,HLA-DQA2,HLA-DQB1,HLA-DQB2,HLA-DRA,HLA-DRB1,HLA-DRB3,HLA-DRB4,HLA-DRB5,HLA-E,HLA-F,HLA-G,HLA-HFE,HLA-H,HLA-J,HLA-K,HLA-L,HLA-N,HLA-P,HLA-S,HLA-T,HLA-U,HLA-V,HLA-W,HLA-Y, MICA,MICB,TAP1,TAP2,C4A,C4B
 
 * __KIR__ genes: KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS3,KIR2DS4,KIR2DS5,KIR3DL1,KIR3DL2,KIR3DL3,KIR3DP1,KIR3DS1
+
+[\[top\]](#content)
 
 # Installation
 
@@ -72,14 +76,16 @@ programs are required to be pre-intalled:
 ## Download
 
 ```bash
-
+git clone https://github.com/YingZhou001/Immuannot.git
+cd Immuannot
+tar xvf refData-2023Jun05.tgz
 
 ```
 
 Testing :
 
 ```bash
->> bash immuannot.sh
+>> bash scripts/immuannot.sh
 Error: target contig seq is required.
 
   Usage: bash immuannot.sh [ -c | --contig  target assembly (.fa, .fa.gz)       ]
@@ -91,6 +97,7 @@ Error: target contig seq is required.
 ```
 
 
+[\[top\]](#content)
 
 # Inputs and Outputs
 
@@ -115,6 +122,8 @@ CDS sequence is also examined during the template search, typically,
 
 Intermediate results are also saved in the output folder.
 
+[\[top\]](#content)
+
 # A Running example
 
 An running example is included along this pipeline. 
@@ -127,13 +136,15 @@ User can test the pipeline by running the script bellow :
 ## check the file path before running
 ctg=example/test.fa.gz
 script=scripts/immuannot.sh
-refdir=Data-2023Jun05
+refdir=refData-2023Jun05
 outpref=test-run
 bash ${script} -c ${ctg} -r ${refdir} -o ${outpref}
 ```
 
 Immuannot would output file "test-run.gtf.gz" for annotation and a folder named
 "test-run" for intermediate results.
+
+[\[top\]](#content)
 
 # Limitations
 
@@ -142,6 +153,8 @@ For example, in our analysis, we
 found a DRB3 gene that had a ~6kb deletion in the first intron, which was not
 found in the IPD-IMGT/HLA data set, which results in the DRB3 gene was detected.
 
+[\[top\]](#content)
+
 # License
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -149,3 +162,5 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
+
+[\[top\]](#content)
