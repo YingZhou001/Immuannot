@@ -27,15 +27,14 @@ match, the allele is reported and structure is annotated based on the alignment.
 If the edit distance of the chosen template is not zero, which means mutation(s) exists, 
 gene structure is annotated and CDS is extracted for further allele calling.
 
-![Gene sequence based annotation and allele calling.](figs/hla-kir.pipeline.png)
-
+<img src=figs/hla-kir.pipeline.png width="400" height="400" />
 
 C4 genes are detected through split alignment. Taking the exons from
 one gene sequence as reference, the length of the 9th intron and key pipetides
 in the 26th exon can be determined, which are used to infer the size S/L and
 the type A/B.
 
-![C4 gene annotation and genotyping](figs/c4.pipeline.png)
+<img src=figs/c4.pipeline.png width="400" height="400" />
 
 Reference gene sequences are allowed to map to different genome regions, then
 multiple copies of a particular gene are reported naturally in the output.
@@ -45,6 +44,7 @@ See REF for more details about this pipeline.
 # Gene coverage
 
 * __HLA__ genes: HLA-A,HLA-B,HLA-C,HLA-DMA,HLA-DMB,HLA-DOA,HLA-DOB,HLA-DPA1,HLA-DPA2,HLA-DPB1,HLA-DPB2,HLA-DQA1,HLA-DQA2,HLA-DQB1,HLA-DQB2,HLA-DRA,HLA-DRB1,HLA-DRB3,HLA-DRB4,HLA-DRB5,HLA-E,HLA-F,HLA-G,HLA-HFE,HLA-H,HLA-J,HLA-K,HLA-L,HLA-N,HLA-P,HLA-S,HLA-T,HLA-U,HLA-V,HLA-W,HLA-Y, MICA,MICB,TAP1,TAP2,C4A,C4B
+
 * __KIR__ genes: KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS3,KIR2DS4,KIR2DS5,KIR3DL1,KIR3DL2,KIR3DL3,KIR3DP1,KIR3DS1
 
 # Installation
@@ -60,7 +60,12 @@ programs are required to be pre-intalled:
 
 ## Download
 
-(TBD)o
+```bash
+
+
+```
+
+Testing :
 
 ```bash
 >> bash immuannot.sh
