@@ -30,35 +30,37 @@ Content
 
 An HLA gene is detected if any reference sequences of that gene are well mapped to the
 target assembly (overlapping rate > 90%). In a region with multiple mapping
-sequences, the one with the smallest edit distance and longest matching length 
-is used as the gene template, which is used for gene structure annotation.
+allele sequences, the one with the smallest edit-distance and longest matching length 
+is chosen as the template, which is used for structure annotation later on.
 
-If the edit distance of the chosen template is zero, which means a perfect
-match, the allele is reported and structure is annotated based on the alignment.
+If the edit-distance of the chosen template is zero, which means a perfect
+matchness, the allele is reported and structure is annotated based on the alignment.
 If the edit distance of the chosen template is not zero, which means mutation(s) exists, 
-gene structure is annotated and CDS is extracted for further allele calling.
+gene structure is annotated with the template and then CDS is extracted for 
+further allele calling.
 
 <img src=figs/hla-kir.pipeline.png width="550" height="500" />
 
 C4 genes are detected through split alignment. Taking the exons from
-one gene sequence as reference, the length of the 9th intron and key pipetides
-in the 26th exon can be determined, which are used to infer the size S/L and
-the type A/B.
+one gene sequence as reference, The boundary of each exon, 
+the length of the 9th intron, and key pipetides in the 26th exon can 
+be determined through the alignment. Those information are used for gene
+annotation and gene typing. 
 
 <img src=figs/c4.pipeline.png width="600" height="400" />
 
-Reference gene sequences are allowed to map to different genome regions, then
-multiple copies of a particular gene are reported naturally in the output.
+Because reference gene sequences are allowed to map to different genome regions,
+multiple copies of a particular gene are reported naturally with this pipeline.
 
-See REF for more details about this pipeline.
+See REF for more details.
 
 [\[top\]](#content)
 
 # Gene coverage
 
-* __HLA__ genes: HLA-A,HLA-B,HLA-C,HLA-DMA,HLA-DMB,HLA-DOA,HLA-DOB,HLA-DPA1,HLA-DPA2,HLA-DPB1,HLA-DPB2,HLA-DQA1,HLA-DQA2,HLA-DQB1,HLA-DQB2,HLA-DRA,HLA-DRB1,HLA-DRB3,HLA-DRB4,HLA-DRB5,HLA-E,HLA-F,HLA-G,HLA-HFE,HLA-H,HLA-J,HLA-K,HLA-L,HLA-N,HLA-P,HLA-S,HLA-T,HLA-U,HLA-V,HLA-W,HLA-Y, MICA,MICB,TAP1,TAP2,C4A,C4B
+__HLA__ genes: HLA-A,HLA-B,HLA-C,HLA-DMA,HLA-DMB,HLA-DOA,HLA-DOB,HLA-DPA1,HLA-DPA2,HLA-DPB1,HLA-DPB2,HLA-DQA1,HLA-DQA2,HLA-DQB1,HLA-DQB2,HLA-DRA,HLA-DRB1,HLA-DRB3,HLA-DRB4,HLA-DRB5,HLA-E,HLA-F,HLA-G,HLA-HFE,HLA-H,HLA-J,HLA-K,HLA-L,HLA-N,HLA-P,HLA-S,HLA-T,HLA-U,HLA-V,HLA-W,HLA-Y, MICA,MICB,TAP1,TAP2,C4A,C4B
 
-* __KIR__ genes: KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS3,KIR2DS4,KIR2DS5,KIR3DL1,KIR3DL2,KIR3DL3,KIR3DP1,KIR3DS1
+__KIR__ genes: KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS3,KIR2DS4,KIR2DS5,KIR3DL1,KIR3DL2,KIR3DL3,KIR3DP1,KIR3DS1
 
 [\[top\]](#content)
 
@@ -111,11 +113,11 @@ the proportion of the query sequence mapped to the target (--overlaprate),
 and the difference ratio cutoff of the matched region (--diff) 
 can all be customized as need.
 
-The output annotation is in [gtf](link to gtf) format.
+The output annotation is in gzip-compressed [gtf](https://useast.ensembl.org/info/website/upload/gff.html) format.
 
-New allele would have a 'new' tag at the rightest field of the 'consensus' call, 
-usually accompanied with one or more 'alleles' from the reference data set 
-that similar to the target gene. 
+In the attribute column, new allele would have a 'new' tag at the rightest field 
+of the 'consensus' call, it is usually accompanied with one or more similar 'alleles' call 
+from the reference data set 
 CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
 "incomplete\_CDS", and "inframe\_stop" for the gene structure annotation.
