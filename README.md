@@ -22,8 +22,8 @@ Content
     - [Download](#download)
 - [Inputs and Outputs](#inputs-and-outputs)
 - [A Running example](#a-running-example)
-- [Limitations](#limitation)
-- [License](#licesne)
+- [Limitations](#limitations)
+- [License](#license)
 
 
 # Detection Strategy
@@ -38,14 +38,14 @@ match, the allele is reported and structure is annotated based on the alignment.
 If the edit distance of the chosen template is not zero, which means mutation(s) exists, 
 gene structure is annotated and CDS is extracted for further allele calling.
 
-<img src=figs/hla-kir.pipeline.png width="450" height="400" />
+<img src=figs/hla-kir.pipeline.png width="550" height="500" />
 
 C4 genes are detected through split alignment. Taking the exons from
 one gene sequence as reference, the length of the 9th intron and key pipetides
 in the 26th exon can be determined, which are used to infer the size S/L and
 the type A/B.
 
-<img src=figs/c4.pipeline.png width="500" height="400" />
+<img src=figs/c4.pipeline.png width="600" height="400" />
 
 Reference gene sequences are allowed to map to different genome regions, then
 multiple copies of a particular gene are reported naturally in the output.
