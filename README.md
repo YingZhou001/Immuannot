@@ -1,6 +1,6 @@
 # Immuannot pipeline introduction
 
-Immuannot is a pipeline building on [minimap2](https://github.com/lh3/minimap2) 
+Immuannot is a pipeline built on [minimap2](https://github.com/lh3/minimap2) 
 to detect and annotate immunological genes for human genome assembly. 
 By taking advantage of gene sequences from 
 [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/),
@@ -28,21 +28,23 @@ Content
 
 # Detection Strategy
 
-An HLA gene is detected if any reference sequences of that gene are well mapped to the
-target assembly (overlapping rate > 90%). In a region with multiple mapping
-allele sequences, the one with the smallest edit-distance and longest matching length 
-is chosen as the template, which is used for structure annotation later on.
+An HLA gene is detected if any reference allele sequences of that gene are well mapped 
+to the target assembly (overlapping rate > 90%). 
+In a region with multiple mapping allele sequences, the one with the smallest 
+edit-distance and longest matching length is chosen as the template allele, 
+which is used for gene structure annotation.
 
-If the edit-distance of the chosen template is zero, which means a perfect
-matchness, the allele is reported and structure is annotated based on the alignment.
-If the edit distance of the chosen template is not zero, which means mutation(s) exists, 
-gene structure is annotated with the template and then CDS is extracted for 
-further allele calling.
+If the edit-distance of the chosen template allele is zero, which means a perfect
+matchness, the contig then is reproted to carry that allele. 
+At the same time, gene structure can be annotated based on the alignment.
+If the edit distance is not zero, which means mutation(s) exists, 
+gene structure is still determined by the template allele, but CDS is extracted for 
+calling the allele type.
 
 <img src=figs/hla-kir.pipeline.png width="550" height="500" />
 
 C4 genes are detected through split alignment. Taking the exons from
-one gene sequence as reference, The boundary of each exon, 
+one gene sequence as reference, The boundaries of each exon, 
 the length of the 9th intron, and key pipetides in the 26th exon can 
 be determined through the alignment. Those information are used for gene
 annotation and gene typing. 
@@ -52,7 +54,7 @@ annotation and gene typing.
 Because reference gene sequences are allowed to map to different genome regions,
 multiple copies of a particular gene are reported naturally with this pipeline.
 
-See REF for more details.
+See our manuscript for more details.
 
 [\[top\]](#content)
 
@@ -136,7 +138,7 @@ An running example is included along this pipeline.
 The target file 'test.fa.gz' include two contigs, one for HLA region 
 and the other for KIR region.
 
-User can test the pipeline by running the script bellow :
+User can test the pipeline by running the script bellow (a few mins):
 
 ```bash
 ## check the file path before running
