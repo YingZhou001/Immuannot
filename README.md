@@ -44,15 +44,16 @@ calling the allele type.
 <img src=figs/hla-kir.pipeline.png width="550" height="500" />
 
 C4 genes are detected through split alignment. Taking the exons from
-one gene sequence as reference, The boundaries of each exon, 
+one gene sequence as the query, the boundaries of each exon, 
 the length of the 9th intron, and key pipetides in the 26th exon can 
-be determined through the alignment. Those information are used for gene
-annotation and gene typing. 
+be determined through aligning the query to the target contig. 
+Those information are used for gene structure annotation and gene typing. 
 
 <img src=figs/c4.pipeline.png width="600" height="400" />
 
-Because reference gene sequences are allowed to map to different genome regions,
-multiple copies of a particular gene are reported naturally with this pipeline.
+Because reference gene sequences are allowed to map to the target genome
+multiple times in different region, copy numbers of a particular gene 
+are reported naturally with this pipeline.
 
 See our manuscript for more details.
 
@@ -116,7 +117,7 @@ prefixed with "immuannot-out".
 
 Optically, the number of threads ( -t/--thread), 
 the proportion of the query sequence mapped to the target (--overlaprate),
-and the difference ratio cutoff of the matched region (--diff) 
+and the differential ratio cutoff of the matched region (--diff) 
 can all be customized as need.
 
 The output annotation is in gzip-compressed [gtf](https://useast.ensembl.org/info/website/upload/gff.html) format.
@@ -126,7 +127,7 @@ of the 'consensus' call, it is usually accompanied with one or more similar 'all
 from the reference data set 
 CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
-"incomplete\_CDS", and "inframe\_stop" for the gene structure annotation.
+"incomplete\_CDS", and "inframe\_stop" for gene structure annotation.
 
 Intermediate results are also saved in the output folder.
 
@@ -159,7 +160,8 @@ Immuannot would output file "test-run.gtf.gz" for annotation and a folder named
 Because Immuannot is mainly based on gene sequence alignment, a novel gene may not be reported if it is largely different from the reference data sequences.
 For example, in our analysis, we
 found a DRB3 gene that had a ~6kb deletion in the first intron, which was not
-found in the IPD-IMGT/HLA data set, which results in the DRB3 gene was detected.
+found in the IPD-IMGT/HLA data set,
+this leads to a mis-report of the DRB3 gene.
 
 [\[top\]](#content)
 
