@@ -10,7 +10,7 @@ it is able to annotate HLA and KIR alleles at full precision (if exist in the
 reference data set) and to report novel alleles by locating new mutations that do not
 exist in the references.
 
-Last update date : 07/24/2023
+Last update date : 07/25/2023
 
 Content
 --------
