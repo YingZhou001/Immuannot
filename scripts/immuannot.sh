@@ -2,9 +2,9 @@
 # Set some default values:
 CONTIG=unset
 REFDIR=unset
-OUTPREF=unset
 
 # optional parameters
+OUTPREF=immuannot-out
 OVERLAP=0.9
 DIFF=0.03
 THREAD=3
@@ -14,9 +14,10 @@ SCRIPTPATH=$(dirname $0)
 usage()
 {
   echo "
-  Usage: bash immuannot.sh [ -c | --contig  target assembly (.fa, .fa.gz)       ] 
+  Usage: bash ${SCRIPTPATH}/immuannot.sh  [OPTIONS] value
+                           [ -c | --contig  target assembly (.fa, .fa.gz)       ] 
                            [ -r | --refdir  references                          ] 
-                           [ -o | --outpref output prefix                       ] 
+                           [ -o | --outpref output prefix (optional)            ] 
                            [ -t | --thread  num of thread (optional, default 3) ] 
                            [ --overlaprate  OVERLAP (optional, default 0.9)     ] 
                            [ --diff         DIFF (optional, default 0.03)       ] 
