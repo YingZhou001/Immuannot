@@ -177,4 +177,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 # Todo list
 
- * add the reference data set link to the zenodo
+ * replace large data (>1MB) with a link to the zenodo
