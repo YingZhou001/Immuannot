@@ -75,7 +75,7 @@ KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS
 ## Requirement
 
 This pipeline is developped and desgined under linux environment, following
-programs are required to be pre-intalled and added in the [search PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/):
+programs are required to be pre-intalled and added in the [searching PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/):
 
 * minimap2 (test version 2.17-r941)
 * python3 (test version 3.9.13)
