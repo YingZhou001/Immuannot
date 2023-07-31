@@ -11,7 +11,7 @@ it is able to annotate HLA and KIR allele at full precision (if exists in the
 reference data set) and to report novel allele by locating new mutations that do not
 exist in the reference allele set.
 
-Last update date : 07/28/2023
+Last update date : 08/31/2023
 
 Content
 --------
@@ -178,4 +178,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 # Todo list
 
- * add the reference data set link to the zenodo
+ * use zenodo link to replace data larger than 1Mb
