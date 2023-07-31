@@ -5,7 +5,8 @@ to detect and annotate immunological genes for human genome assembly.
 By taking advantage of gene sequences from 
 [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/),
 [IPD-KIR](https://www.ebi.ac.uk/ipd/kir/), and
-[National library of medicine](https://www.ncbi.nlm.nih.gov/gene/720),
+[National library of medicine](https://www.ncbi.nlm.nih.gov/gene/720) as
+references,
 it is able to annotate HLA and KIR allele at full precision (if exists in the
 reference data set) and to report novel allele by locating new mutations that do not
 exist in the reference allele set.
@@ -48,9 +49,9 @@ Those information are used for gene structure annotation and gene typing.
 
 <img src=figs/c4.pipeline.png width="600" height="400" />
 
-Because reference gene sequences could be mapped to the target genome
-in different regions, copy number of a particular gene 
-could be reported naturally with the number of mapping clusters.
+Because each reference gene sequence could be mapped to different regions
+of the target genome, copy number of a particular gene 
+is reported naturally with the number of mapping clusters.
 
 See our manuscript for more details.
 
@@ -75,7 +76,7 @@ KIR2DL1,KIR2DL2,KIR2DL3,KIR2DL4,KIR2DL5A,KIR2DL5B,KIR2DP1,KIR2DS1,KIR2DS2,KIR2DS
 ## Requirement
 
 This pipeline is developped and desgined under linux environment, following
-programs are required to be pre-intalled and added in the [searching PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/):
+programs are required to be pre-intalled and added in the [system searching PATH](https://linuxize.com/post/how-to-add-directory-to-path-in-linux/):
 
 * minimap2 (test version 2.17-r941)
 * python3 (test version 3.9.13)
@@ -96,10 +97,10 @@ Testing :
 >> bash scripts/immuannot.sh
 Error: target contig seq is required.
 
-  Usage: bash scripts/immuannot.sh  [OPTIONS] value
+  Usage: bash scripts/immuannot.sh  [OPTION] value
                            [ -c | --contig  target assembly (.fa, .fa.gz)       ]
                            [ -r | --refdir  references                          ]
-                           [ -o | --outpref output prefix                       ]
+                           [ -o | --outpref output prefix (optional)            ]
                            [ -t | --thread  num of thread (optional, default 3) ]
                            [ --overlaprate  OVERLAP (optional, default 0.9)     ]
                            [ --diff         DIFF (optional, default 0.03)       ]
@@ -123,7 +124,7 @@ can all be customized as need.
 The output annotation is in gzip-compressed [gtf](https://useast.ensembl.org/info/website/upload/gff.html) format.
 
 In the attribute column, new allele would have a 'new' tag at the rightest field 
-of the 'consensus' call, it is usually accompanied with one or more similar
+of the 'consensus' call, it is usually accompanied with one or more most similar
 'alleles' calls. 
 CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
@@ -157,7 +158,7 @@ Immuannot would output file "test-run.gtf.gz" for annotation and a folder named
 
 # Limitations
 
-Because Immuannot is mainly based on gene sequence alignment, a novel gene may not be reported if it is largely different from the reference data sequences.
+Because Immuannot is mainly based on gene sequence alignment, except for C4 gene, a novel gene may not be reported if it is largely different from the reference data sequences.
 For example, in our analysis, we
 found a DRB3 allele with a ~6kb deletion in the first intron, which was not
 included in the IPD-IMGT/HLA data set.
@@ -177,4 +178,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 # Todo list
 
- * replace large data (>1MB) with a link to the zenodo
+ * add the reference data set link to the zenodo
