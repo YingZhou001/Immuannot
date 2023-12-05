@@ -5,13 +5,13 @@ to detect and annotate immunological genes for human genome assembly.
 By taking advantage of gene sequences from 
 [IPD-IMGT/HLA](https://www.ebi.ac.uk/ipd/imgt/hla/),
 [IPD-KIR](https://www.ebi.ac.uk/ipd/kir/), and
-[National library of medicine](https://www.ncbi.nlm.nih.gov/gene/720) as
-references,
+[RefSeq](accession number NG_011638.1)
+as references,
 it is able to annotate HLA and KIR allele at full precision (if exists in the
 reference data set) and to report novel allele by locating new mutations that do not
 exist in the reference allele set.
 
-Last update date : 08/31/2023
+Last update date : 12/5/2023
 
 Content
 --------
@@ -29,6 +29,9 @@ Content
 
 # Detection Strategy
 
+
+<img src=figs/pipeline-simple.pdf width="550" height="500" />
+
 An __HLA__ gene is detected if any reference allele sequences of that gene are well mapped 
 to the target assembly (overlapping rate > 90%). 
 In a region with multiple mapping allele sequences, the one with the smallest 
@@ -39,15 +42,11 @@ If the edit-distance of the chosen template allele is zero, which means a perfec
 matching, the contig then is reproted to carry that allele. 
 Otherwise, CDS is extracted for calling the allele type.
 
-<img src=figs/hla-kir.pipeline.png width="550" height="500" />
-
 __C4__ gene is detected through split alignment. Taking the exons from
 one gene sequence as the query, the boundaries of each exon, 
 the length of the 9th intron, and key pipetides in the 26th exon can 
 be estimated through aligning the query to the target contig. 
 Those information are used for gene structure annotation and gene typing. 
-
-<img src=figs/c4.pipeline.png width="600" height="400" />
 
 Because each reference gene sequence could be mapped to different regions
 of the target genome, copy number of a particular gene 
@@ -84,11 +83,13 @@ programs are required to be pre-intalled and added in the [system searching PATH
 
 ## Download
 
+Download the reference data set 'Data-2023Oct27.tar.gz' from zenodo: 10.5281/zenodo.8372992
+
 ```bash
 git clone https://github.com/YingZhou001/Immuannot.git
 cd Immuannot
-tar xvf refData-2023Jun05.tgz
-
+# put Data-2023Oct27.tar.gz here and 
+tar xvf Data-2023Oct27.tar.gz
 ```
 
 Testing :
@@ -143,10 +144,10 @@ and the other for KIR region.
 User can test the pipeline by running the script bellow (a few mins):
 
 ```bash
-## check the file path before running
+## check the file path before running, take a few minutes
 ctg=example/test.fa.gz
 script=scripts/immuannot.sh
-refdir=refData-2023Jun05
+refdir=Data-2023Oct27
 outpref=test-run
 bash ${script} -c ${ctg} -r ${refdir} -o ${outpref}
 ```
@@ -159,10 +160,6 @@ Immuannot would output file "test-run.gtf.gz" for annotation and a folder named
 # Limitations
 
 Because Immuannot is mainly based on gene sequence alignment, except for C4 gene, a novel gene may not be reported if it is largely different from the reference data sequences.
-For example, in our analysis, we
-found a DRB3 allele with a ~6kb deletion in the first intron, which was not
-included in the IPD-IMGT/HLA data set.
-As a result, our pipeline cannot detect the DRB3 gene in that sample.
 
 [\[top\]](#content)
 
@@ -178,4 +175,4 @@ You should have received a copy of the GNU General Public License along with thi
 
 # Todo list
 
- * use zenodo link to replace data larger than 1Mb
+ * ~~use zenodo link to replace data larger than 1Mb~~
