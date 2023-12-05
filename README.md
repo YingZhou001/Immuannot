@@ -83,7 +83,7 @@ programs are required to be pre-intalled and added in the [system searching PATH
 
 ## Download
 
-Download the reference data set 'Data-2023Oct27.tar.gz' from zenodo: 10.5281/zenodo.8372992
+Download the reference data set 'Data-2023Oct27.tar.gz' from [zenodo](10.5281/zenodo.8372992)
 
 ```bash
 git clone https://github.com/YingZhou001/Immuannot.git
