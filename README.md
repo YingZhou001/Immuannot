@@ -30,7 +30,7 @@ Content
 # Detection Strategy
 
 
-<img src=figs/pipeline-simple.pdf width="550" height="500" />
+<img src=figs/pipeline-simple.png width="550" height="700" />
 
 An __HLA__ gene is detected if any reference allele sequences of that gene are well mapped 
 to the target assembly (overlapping rate > 90%). 
