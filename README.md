@@ -52,6 +52,7 @@ of the target genome, copy number of a particular gene
 is reported naturally with the number of mapping clusters.
 
 See our manuscript for more details:
+
 Full resolution HLA and KIR genes annotation for human genome assemblies [link](https://www.biorxiv.org/content/10.1101/2024.01.20.576452v1)
 
 [\[top\]](#content)
