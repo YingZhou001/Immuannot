@@ -11,7 +11,7 @@ it is able to annotate HLA and KIR allele at full precision (if exists in the
 reference data set) and to report novel allele by locating new mutations that do not
 exist in the reference allele set.
 
-Last update date : 12/5/2023
+Last update date : 04/09/2024
 
 Content
 --------
@@ -82,15 +82,17 @@ programs are required to be pre-intalled and added in the [system searching PATH
 
 ## Download
 
-Download the reference data set 'Data-2023Oct27.tar.gz' from zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8372992.svg)](https://doi.org/10.5281/zenodo.8372992)
+Download the reference data set 'Data-2023Oct27.tar.gz' from zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10948964.svg)](https://doi.org/10.5281/zenodo.10948964)
+
+
 
 
 
 ```bash
 git clone https://github.com/YingZhou001/Immuannot.git
 cd Immuannot
-# put Data-2023Oct27.tar.gz here and 
-tar xvf Data-2023Oct27.tar.gz
+# put Data-2024Feb02.tar.gz here and 
+tar xvf Data-2024Feb02.tar.gz
 ```
 
 Testing :
@@ -148,7 +150,7 @@ User can test the pipeline by running the script bellow (a few mins):
 ## check the file path before running, take a few minutes
 ctg=example/test.fa.gz
 script=scripts/immuannot.sh
-refdir=Data-2023Oct27
+refdir=Data-2024Feb02
 outpref=test-run
 bash ${script} -c ${ctg} -r ${refdir} -o ${outpref}
 ```
