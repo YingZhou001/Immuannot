@@ -169,4 +169,5 @@ Because Immuannot is mainly based on gene sequence alignment, except for C4 gene
 
 # Todo list
 
+ * Combine split-alignment and gene sequence aligment to get a better annotation for large novel indels
  * ~~use zenodo link to replace data larger than 1Mb~~
