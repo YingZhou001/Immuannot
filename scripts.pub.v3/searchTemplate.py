@@ -302,24 +302,25 @@ def searchTemplatePGPC(pafDA, ctgname, qctgseqs) :
             s0 = qseq[a-1:b]
             cdsrg = str(a) + '..' + str(b)
             # will recover positive or the same strand diretion as qseq
-            s1 = at.recoverTargetSeqFromQuery(qseq, csstr, cdsrg, da['strand'])
-            #sys.stderr.write('*******\n')
-            cdsstr += s1
-            tmprg = str(a-2) + '..' + str(b + 2)
-            s2 = at.recoverTargetSeqFromQuery(qseq, csstr, tmprg, da['strand'])
-            """
-            #sys.stderr.write('qstr ' + da['qstr'] + '_\n')
-            #sys.stderr.write('tstr ' + da['tstr'] + '_\n')
-            #sys.stderr.write('cdsrg_' + cds + '_\n')
-            #sys.stderr.write('cdsrg_' + cdsrg + '_\n')
-            #sys.stderr.write('cs_' + csstr + '_\n')
-            #sys.stderr.write('s0_' + s0 + '_\n')
-            #sys.stderr.write('s1_' + s1 + '_\n')
-            #sys.stderr.write('s2_' + s2 + '_\n')
-            """
-            left = s2[0:2]
-            right = s2[-2] + s2[-1]
-            intronBound += left +  ":"  + right + "_"
+            if s1 :
+                s1 = at.recoverTargetSeqFromQuery(qseq, csstr, cdsrg, da['strand'])
+                #sys.stderr.write('*******\n')
+                cdsstr += s1
+                tmprg = str(a-2) + '..' + str(b + 2)
+                s2 = at.recoverTargetSeqFromQuery(qseq, csstr, tmprg, da['strand'])
+                """
+                #sys.stderr.write('qstr ' + da['qstr'] + '_\n')
+                #sys.stderr.write('tstr ' + da['tstr'] + '_\n')
+                #sys.stderr.write('cdsrg_' + cds + '_\n')
+                #sys.stderr.write('cdsrg_' + cdsrg + '_\n')
+                #sys.stderr.write('cs_' + csstr + '_\n')
+                #sys.stderr.write('s0_' + s0 + '_\n')
+                #sys.stderr.write('s1_' + s1 + '_\n')
+                #sys.stderr.write('s2_' + s2 + '_\n')
+                """
+                left = s2[0:2]
+                right = s2[-2] + s2[-1]
+                intronBound += left +  ":"  + right + "_"
 
         rec['template'] = da['qstr']
         rec['strand'] = da['strand']
