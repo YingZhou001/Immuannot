@@ -51,7 +51,7 @@ def nameNewHlaAllele(refAllele, cdsdiff) :
     if not cdsdiff or cdsdiff == "NA" :
         fields[3] = 'new'
     else :
-        regex = re.compile(r'(\w+)\(\w*\)<(\w+)\(\w*\)')
+        regex = re.compile(r'(\w*)\(\w*\)<(\w*)\(\w*\)')
         ret = regex.findall(cdsdiff)
         a = ''
         b = ''
