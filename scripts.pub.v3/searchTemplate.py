@@ -302,8 +302,8 @@ def searchTemplatePGPC(pafDA, ctgname, qctgseqs) :
             s0 = qseq[a-1:b]
             cdsrg = str(a) + '..' + str(b)
             # will recover positive or the same strand diretion as qseq
+            s1 = at.recoverTargetSeqFromQuery(qseq, csstr, cdsrg, da['strand'])
             if s1 :
-                s1 = at.recoverTargetSeqFromQuery(qseq, csstr, cdsrg, da['strand'])
                 #sys.stderr.write('*******\n')
                 cdsstr += s1
                 tmprg = str(a-2) + '..' + str(b + 2)
