@@ -162,6 +162,8 @@ Immuannot would output file "test-run.gtf.gz" for annotation and a folder named
 
 Because Immuannot is mainly based on gene sequence alignment, except for C4 gene, a novel gene may not be reported if it is largely different from the reference data sequences.
 
+Immuannot takes one set of genome as the input for each run. Annotating multiple-sample sequences in one run could lead to lots of missing calls.
+
 [\[top\]](#content)
 
 
