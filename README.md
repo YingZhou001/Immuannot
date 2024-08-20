@@ -135,7 +135,7 @@ Immuannot outputs several pieces of related information for HLA/KIR allele calli
    at the rightest field indicates a novel gene sequence and the effect of the undocumented mutation. Closest alleles from IMGT
    are also included in this row.  
 
-__Please do use "consensus" or "allele" field but not "template_allele" as the allele type result.__
+__Please do use "consensus" or "allele" field but not "template_allele" as the allele typing result.__
 
 Additionally, CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
