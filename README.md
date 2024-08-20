@@ -22,6 +22,7 @@ Content
     - [Requirement](#requirement)
     - [Download](#download)
 - [Inputs and Outputs](#inputs-and-outputs)
+    - [Allele calling](#allele-calling)
 - [A Running Example](#a-running-example)
 - [Limitations](#limitations)
 
@@ -125,16 +126,25 @@ can all be customized as need.
 
 The output annotation is in gzip-compressed [gtf](https://useast.ensembl.org/info/website/upload/gff.html) format.
 
-In the attribute column, new allele would have a 'new' tag at the rightest field 
-of the 'consensus' call, it is usually accompanied with one or more most similar
-'alleles' calls. 
-CDS sequence is also examined during the template search, typically, 
+## Allele calling
+
+Immuannot outputs several pieces of related information for HLA/KIR allele calling in the final gtf output.
+1) The feature "gene" row includes "template_allele" that used for gene structure annotation and "template_distance"  that indicates
+   the edit distance between the target sequence and the template allele.
+2) The feature "transcript" row includes "consensus" call as a summary of the closest alleles from the IMGT database. The "new" tag
+   at the rightest field indicates a novel gene sequence and the effect of the undocumented mutation. Most similar alleles from IMGT
+   are also included in this row.  
+
+Additionally, CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
 "incomplete\_CDS", and "inframe\_stop" for gene structure annotation.
 
 Intermediate results are also saved in the output folder.
 
 [\[top\]](#content)
+
+
+
 
 # A Running example
 
