@@ -130,10 +130,12 @@ The output annotation is in gzip-compressed [gtf](https://useast.ensembl.org/inf
 
 Immuannot outputs several pieces of related information for HLA/KIR allele calling in the final gtf output.
 1) The feature "gene" row includes "template_allele" that used for gene structure annotation and "template_distance"  that indicates
-   the edit distance between the target sequence and the template allele.
+   the edit distance between the target sequence and the template allele.  
 2) The feature "transcript" row includes "consensus" call as a summary of the closest alleles from the IMGT database. The "new" tag
-   at the rightest field indicates a novel gene sequence and the effect of the undocumented mutation. Most similar alleles from IMGT
+   at the rightest field indicates a novel gene sequence and the effect of the undocumented mutation. Closest alleles from IMGT
    are also included in this row.  
+
+__Please do use "consensus" or "allele" field but not "template_allele" as the allele type result.__
 
 Additionally, CDS sequence is also examined during the template search, typically, 
 'template\_warning' would give warnings as "no-start\_codon", "no-stop\_codon", 
