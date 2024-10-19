@@ -1,0 +1,864 @@
+LOCUS       NG_011638              20624 bp    DNA     linear   PRI 02-JAN-2023
+DEFINITION  Homo sapiens complement C4A (Rodgers blood group) (C4A), RefSeqGene
+            (LRG_137) on chromosome 6.
+ACCESSION   NG_011638 REGION: 5001..25624
+VERSION     NG_011638.1
+KEYWORDS    RefSeq; RefSeqGene.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 20624)
+  AUTHORS   Pasupuleti M, Walse B, Nordahl EA, Morgelin M, Malmsten M and
+            Schmidtchen A.
+  TITLE     Preservation of antimicrobial properties of complement peptide C3a,
+            from invertebrates to humans
+  JOURNAL   J Biol Chem 282 (4), 2520-2528 (2007)
+   PUBMED   17132627
+REFERENCE   2  (bases 1 to 20624)
+  AUTHORS   Yu CY.
+  TITLE     The complete exon-intron structure of a human complement component
+            C4A gene. DNA sequences, polymorphism, and linkage to the
+            21-hydroxylase gene
+  JOURNAL   J Immunol 146 (3), 1057-1066 (1991)
+   PUBMED   1988494
+REFERENCE   3  (bases 1 to 20624)
+  AUTHORS   Palsdottir,A., Fossdal,R., Arnason,A., Edwards,J.H. and Jensson,O.
+  TITLE     Heterogeneity of human C4 gene size. A large intron (6.5 kb) is
+            present in all C4A genes and some C4B genes
+  JOURNAL   Immunogenetics 25 (5), 299-304 (1987)
+   PUBMED   2883116
+REFERENCE   4  (bases 1 to 20624)
+  AUTHORS   Yu,C.Y., Belt,K.T., Giles,C.M., Campbell,R.D. and Porter,R.R.
+  TITLE     Structural basis of the polymorphism of human complement components
+            C4A and C4B: gene size, reactivity and antigenicity
+  JOURNAL   EMBO J 5 (11), 2873-2881 (1986)
+   PUBMED   2431902
+REFERENCE   5  (bases 1 to 20624)
+  AUTHORS   Belt,K.T., Carroll,M.C. and Porter,R.R.
+  TITLE     The structural basis of the multiple forms of human complement
+            component C4
+  JOURNAL   Cell 36 (4), 907-914 (1984)
+   PUBMED   6546707
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff in
+            collaboration with Sujatha Mohan. The reference sequence was
+            derived from AL645922.12.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            Summary: This gene encodes the acidic form of complement factor 4,
+            part of the classical activation pathway. The protein is expressed
+            as a single chain precursor which is proteolytically cleaved into a
+            trimer of alpha, beta, and gamma chains prior to secretion. The
+            trimer provides a surface for interaction between the
+            antigen-antibody complex and other complement components. The alpha
+            chain is cleaved to release C4 anaphylatoxin, an antimicrobial
+            peptide and a mediator of local inflammation. Deficiency of this
+            protein is associated with systemic lupus erythematosus and type I
+            diabetes mellitus. This gene localizes to the major
+            histocompatibility complex (MHC) class III region on chromosome 6.
+            Varying haplotypes of this gene cluster exist, such that
+            individuals may have 1, 2, or 3 copies of this gene. Two transcript
+            variants encoding different isoforms have been found for this gene.
+            [provided by RefSeq, Nov 2014].
+            
+            Sequence Note: This RefSeq record represents the C4A*001.1.1
+            allele.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-27624             AL645922.12        73323-100946
+FEATURES             Location/Qualifiers
+     source          1..20624
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="6"
+                     /map="6p21.33"
+     gene            1..20624
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="complement C4A (Rodgers blood group)"
+                     /db_xref="GeneID:720"
+                     /db_xref="HGNC:HGNC:1323"
+                     /db_xref="MIM:120810"
+     mRNA            join(1..116,249..447,662..863,1073..1143,1222..1310,
+                     1529..1611,1782..1878,2017..2122,2220..2352,9136..9251,
+                     9351..9530,9676..9858,9991..10176,10330..10488,
+                     10740..10866,11034..11108,11369..11566,11658..11769,
+                     11860..11930,12189..12328,12442..12651,12896..12947,
+                     13049..13138,13274..13483,13663..13738,13899..14055,
+                     14151..14267,14373..14544,14773..15005,15088..15255,
+                     15649..15708,16758..16851,16949..17135,17250..17340,
+                     17431..17505,18997..19099,19265..19354,19440..19538,
+                     19721..19804,20067..20199,20343..20624)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /product="complement C4A (Rodgers blood group), transcript
+                     variant 1"
+                     /transcript_id="NM_007293.2"
+                     /db_xref="GeneID:720"
+                     /db_xref="LRG:t1"
+                     /db_xref="HGNC:HGNC:1323"
+                     /db_xref="MIM:120810"
+     exon            1..116
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=1
+     CDS             join(52..116,249..447,662..863,1073..1143,1222..1310,
+                     1529..1611,1782..1878,2017..2122,2220..2352,9136..9251,
+                     9351..9530,9676..9858,9991..10176,10330..10488,
+                     10740..10866,11034..11108,11369..11566,11658..11769,
+                     11860..11930,12189..12328,12442..12651,12896..12947,
+                     13049..13138,13274..13483,13663..13738,13899..14055,
+                     14151..14267,14373..14544,14773..15005,15088..15255,
+                     15649..15708,16758..16851,16949..17135,17250..17340,
+                     17431..17505,18997..19099,19265..19354,19440..19538,
+                     19721..19804,20067..20199,20343..20484)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="acidic C4; Rodgers form of C4; C4A anaphylatoxin;
+                     complement C4-A; acidic complement C4; C3 and PZP-like
+                     alpha-2-macroglobulin domain-containing protein 2; MHC
+                     class III region complement; complement component 4A
+                     (Rodgers blood group)"
+                     /codon_start=1
+                     /product="complement C4-A isoform 1 preproprotein"
+                     /protein_id="NP_009224.2"
+                     /db_xref="CCDS:CCDS47404.1"
+                     /db_xref="GeneID:720"
+                     /db_xref="LRG:p1"
+                     /db_xref="HGNC:HGNC:1323"
+                     /db_xref="MIM:120810"
+                     /translation="MRLLWGLIWASSFFTLSLQKPRLLLFSPSVVHLGVPLSVGVQLQ
+                     DVPRGQVVKGSVFLRNPSRNNVPCSPKVDFTLSSERDFALLSLQVPLKDAKSCGLHQL
+                     LRGPEVQLVAHSPWLKDSLSRTTNIQGINLLFSSRRGHLFLQTDQPIYNPGQRVRYRV
+                     FALDQKMRPSTDTITVMVENSHGLRVRKKEVYMPSSIFQDDFVIPDISEPGTWKISAR
+                     FSDGLESNSSTQFEVKKYVLPNFEVKITPGKPYILTVPGHLDEMQLDIQARYIYGKPV
+                     QGVAYVRFGLLDEDGKKTFFRGLESQTKLVNGQSHISLSKAEFQDALEKLNMGITDLQ
+                     GLRLYVAAAIIESPGGEMEEAELTSWYFVSSPFSLDLSKTKRHLVPGAPFLLQALVRE
+                     MSGSPASGIPVKVSATVSSPGSVPEVQDIQQNTDGSGQVSIPIIIPQTISELQLSVSA
+                     GSPHPAIARLTVAAPPSGGPGFLSIERPDSRPPRVGDTLNLNLRAVGSGATFSHYYYM
+                     ILSRGQIVFMNREPKRTLTSVSVFVDHHLAPSFYFVAFYYHGDHPVANSLRVDVQAGA
+                     CEGKLELSVDGAKQYRNGESVKLHLETDSLALVALGALDTALYAAGSKSHKPLNMGKV
+                     FEAMNSYDLGCGPGGGDSALQVFQAAGLAFSDGDQWTLSRKRLSCPKEKTTRKKRNVN
+                     FQKAINEKLGQYASPTAKRCCQDGVTRLPMMRSCEQRAARVQQPDCREPFLSCCQFAE
+                     SLRKKSRDKGQAGLQRALEILQEEDLIDEDDIPVRSFFPENWLWRVETVDRFQILTLW
+                     LPDSLTTWEIHGLSLSKTKGLCVATPVQLRVFREFHLHLRLPMSVRRFEQLELRPVLY
+                     NYLDKNLTVSVHVSPVEGLCLAGGGGLAQQVLVPAGSARPVAFSVVPTAAAAVSLKVV
+                     ARGSFEFPVGDAVSKVLQIEKEGAIHREELVYELNPLDHRGRTLEIPGNSDPNMIPDG
+                     DFNSYVRVTASDPLDTLGSEGALSPGGVASLLRLPRGCGEQTMIYLAPTLAASRYLDK
+                     TEQWSTLPPETKDHAVDLIQKGYMRIQQFRKADGSYAAWLSRDSSTWLTAFVLKVLSL
+                     AQEQVGGSPEKLQETSNWLLSQQQADGSFQDPCPVLDRSMQGGLVGNDETVALTAFVT
+                     IALHHGLAVFQDEGAEPLKQRVEASISKANSFLGEKASAGLLGAHAAAITAYALTLTK
+                     APVDLLGVAHNNLMAMAQETGDNLYWGSVTGSQSNAVSPTPAPRNPSDPMPQAPALWI
+                     ETTAYALLHLLLHEGKAEMADQASAWLTRQGSFQGGFRSTQDTVIALDALSAYWIASH
+                     TTEERGLNVTLSSTGRNGFKSHALQLNNRQIRGLEEELQFSLGSKINVKVGGNSKGTL
+                     KVLRTYNVLDMKNTTCQDLQIEVTVKGHVEYTMEANEDYEDYEYDELPAKDDPDAPLQ
+                     PVTPLQLFEGRRNRRRREAPKVVEEQESRVHYTVCIWRNGKVGLSGMAIADVTLLSGF
+                     HALRADLEKLTSLSDRYVSHFETEGPHVLLYFDSVPTSRECVGFEAVQEVPVGLVQPA
+                     SATLYDYYNPERRCSVFYGAPSKSRLLATLCSAEVCQCAEGKCPRQRRALERGLQDED
+                     GYRMKFACYYPRVEYGFQVKVLREDSRAAFRLFETKITQVLHFTKDVKAAANQMRNFL
+                     VRASCRLRLEPGKEYLIMGLDGATYDLEGHPQYLLDSNSWIEEMPSERLCRSTRQRAA
+                     CAQLNDFLQEYGTQGCQV"
+     sig_peptide     52..108
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="COORDINATES: ab initio prediction:SignalP:4.0"
+     proprotein      join(109..116,249..447,662..863,1073..1143,1222..1310,
+                     1529..1611,1782..1878,2017..2122,2220..2352,9136..9251,
+                     9351..9530,9676..9858,9991..10176,10330..10488,
+                     10740..10866,11034..11108,11369..11566,11658..11769,
+                     11860..11930,12189..12328,12442..12651,12896..12947,
+                     13049..13138,13274..13483,13663..13738,13899..14055,
+                     14151..14267,14373..14544,14773..15005,15088..15255,
+                     15649..15708,16758..16851,16949..17135,17250..17340,
+                     17431..17505,18997..19099,19265..19354,19440..19538,
+                     19721..19804,20067..20199,20343..20481)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /product="complement C4-A isoform 1 proprotein"
+     misc_feature    join(818..863,1073..1143,1222..1310,1529..1601)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="MG2 domain; pfam01835; Region: A2M_N"
+     misc_feature    join(9766..9858,9991..10176,10330..10449)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="Alpha-2-macroglobulin family N-terminal region;
+                     pfam07703; Region: A2M_N_2"
+     mat_peptide     join(11075..11108,11369..11565)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /product="C4a anaphylatoxin"
+                     /experiment="DESCRIPTION:antimicrobial
+                     peptide[PMID:17132627]"
+     misc_feature    join(11093..11108,11369..11547)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="Anaphylatoxin homologous domain; C3a, C4a and C5a
+                     anaphylatoxins are protein fragments generated
+                     enzymatically in serum during activation of complement
+                     molecules C3, C4, and C5. They induce smooth muscle
+                     contraction. These fragments are homologous to...;
+                     cd00017; Region: ANATO"
+     misc_feature    join(11732..11769,11860..11930,12189..12328,12442..12456)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="Alpha-2-macroglobulin family; pfam00207; Region:
+                     A2M"
+     misc_feature    join(13315..13483,13663..13738,13899..14055,14151..14267,
+                     14373..14544,14773..15005,15088..15123)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="Proteins similar to C3, C4 and C5 of vertebrate
+                     complement. The vertebrate complement system, comprised of
+                     a large number of distinct plasma proteins, is an effector
+                     of both the acquired and innate immune systems. The point
+                     of convergence of the...; cd02896; Region:
+                     complement_C3_C4_C5"
+     misc_feature    order(13357..13359,13363..13368,13375..13377,13683..13685,
+                     13713..13715,13722..13724,14032..14034,14038..14043,
+                     14991..14993)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="surface patch; other site"
+     misc_feature    order(13357..13368,14041..14043)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="active site"
+     misc_feature    13357..13368
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="thioester region; other site"
+     misc_feature    join(13480..13483,13663..13738,13899..14055,14151..14267,
+                     14373..14544,14773..15005,15088..15129)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="A-macroglobulin complement component; pfam07678;
+                     Region: A2M_comp"
+     misc_feature    order(13999..14001,14011..14013,14017..14019,14041..14043,
+                     14151..14156)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="specificity defining residues; other site"
+     misc_feature    join(17272..17340,17431..17505,18997..19099,19265..19287)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="A-macroglobulin receptor; pfam07677; Region:
+                     A2M_recep"
+     misc_feature    join(19339..19354,19440..19538,19721..19804,20067..20199,
+                     20343..20475)
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /note="NTR/C345C domain, complement C4 subfamily; The NTR
+                     domain found in complement C4 is also known as the C345C
+                     domain because it occurs at the C-terminus of complement
+                     C3, C4 and C5. Complement C4 is a key player in the
+                     activation of the component classical...; cd03584; Region:
+                     NTR_complement_C4"
+     exon            249..447
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=2
+     exon            662..863
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=3
+     exon            1073..1143
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=4
+     exon            1222..1310
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=5
+     exon            1529..1611
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=6
+     exon            1782..1878
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=7
+     exon            2017..2122
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=8
+     exon            2220..2352
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=9
+     exon            9136..9251
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=10
+     exon            9351..9530
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=11
+     exon            9676..9858
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=12
+     exon            9991..10176
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=13
+     exon            10330..10488
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=14
+     exon            10740..10866
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=15
+     exon            11034..11108
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=16
+     exon            11369..11566
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=17
+     exon            11658..11769
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=18
+     exon            11860..11930
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=19
+     exon            12189..12328
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=20
+     exon            12442..12651
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=21
+     exon            12896..12947
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=22
+     exon            13049..13138
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=23
+     exon            13274..13483
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=24
+     exon            13663..13738
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=25
+     exon            13899..14055
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=26
+     exon            14151..14267
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=27
+     exon            14373..14544
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=28
+     exon            14773..15005
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=29
+     exon            15088..15255
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=30
+     exon            15649..15708
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=31
+     exon            16758..16851
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=32
+     exon            16949..17135
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=33
+     exon            17250..17340
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=34
+     exon            17431..17505
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=35
+     exon            18997..19099
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=36
+     exon            19265..19354
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=37
+     exon            19440..19538
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=38
+     exon            19721..19804
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=39
+     exon            20067..20199
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=40
+     exon            20343..20624
+                     /gene="C4A"
+                     /gene_synonym="C4; C4A2; C4A3; C4A4; C4A6; C4AD; C4S; CO4;
+                     CPAMD2; RG"
+                     /inference="alignment:Splign:1.39.8"
+                     /number=41
+ORIGIN      
+        1 agaaggtagc agacagacag acggatctaa cctctcttgg atcctccagc catgaggctg
+       61 ctctgggggc tgatctgggc atccagcttc ttcaccttat ctctgcagaa gcccaggtcc
+      121 tggaggcggg atgctgggtg cttggattgg ggcagggctg gcatcgggac ccgattcagg
+      181 agtgagggag agcaggggtg gaggtgtcag agcgaagtct gactgctgat cctgtctgtt
+      241 ctccccaggt tgctcttgtt ctctccttct gtggttcatc tgggggtccc cctatcggtg
+      301 ggggtgcagc tccaggatgt gccccgagga caggtagtga aaggatcagt gttcctgaga
+      361 aacccatctc gtaataatgt cccctgctcc ccaaaggtgg acttcaccct tagctcagaa
+      421 agagacttcg cactcctcag tctccaggta accagacccc atgccctcct gctgcttgtg
+      481 ggggcctcct gccctgttcc catctgtctt gtaagtgtca tcatcttccc actggcctcc
+      541 tcccctcctg tcttcccacc ctggcattct ccttccacgt ttctcccttg gtctctgtcc
+      601 tttttggtca gctgtctctt gctctgtgac ccgctccctc tccctctccc tctcctgaca
+      661 ggtgcccttg aaagatgcga agagctgtgg cctccatcaa ctcctcagag gccctgaggt
+      721 ccagctggtg gcccattcgc catggctaaa ggactctctg tccagaacga caaacatcca
+      781 gggtatcaac ctgctcttct cctctcgccg ggggcacctc tttttgcaga cggaccagcc
+      841 catttacaac cctggccagc ggggtgagtc tcagccccag ggcctcaacc tttaaccccc
+      901 tccgagccct ctcaggatga gtttggtgcc ccctaagtga gataacctga aagaaagtgc
+      961 cacacagaag gggtgcttag gaaacatttg tcccctgctc cctctgtgga gtttgaccca
+     1021 ccctcccctt gcacatggac ccctgctcac ctctctcctc ctccactccc agttcggtac
+     1081 cgggtctttg ctctggatca gaagatgcgc ccgagcactg acaccatcac agtcatggtg
+     1141 gaggtgagtc cccgacctct ggccttcctg atcctggcca ctgatgtgac ctcctgcctg
+     1201 tgagcacttc tccccttgca gaactctcac ggcctccgcg tgcggaagaa ggaggtgtac
+     1261 atgccctcgt ccatcttcca ggatgacttt gtgatcccag acatctcaga gtgagcgctc
+     1321 ccaatgtggg ggctgccccc aagctacacc accccaattc ctgttaggct ctccacctcc
+     1381 cacacagagg cacgtcccca gatgccctga ccctcagcct cctgagcctc tggttaaccc
+     1441 ccacagtcct cttcccaggg aagcaggctg ctggctctcc gtgccccact gtacagatgg
+     1501 gctgagcccc ttccttgtcc attctcaggc cagggacctg gaagatctca gcccgattct
+     1561 cagatggcct ggaatccaac agcagcaccc agtttgaggt gaagaaatat ggtgagagct
+     1621 ggaaactgga gggacaggca gctgctttcc tgaaggaaat aagggtggaa ggagaggtac
+     1681 tgggagcagc tcagggcagg gagatatggg tgccacagcc ctgagcagag gggagtcttt
+     1741 gagctggagt ctgacctgcc tatcccttca ccctgggtca gtccttccca actttgaggt
+     1801 gaagatcacc cctggaaagc cctacatcct gacggtgcca ggccatcttg atgaaatgca
+     1861 gttagacatc caggccaggt aatacctccc tccccacctc tgcccaccag caccgggtcc
+     1921 tgctccctac tcagtatgaa tgggctcctg cttccctgcc ctcgggccat tattcccccc
+     1981 agcccttggc ccaccctctt ctctctgcca cgacaggtac atctatggga agccagtgca
+     2041 gggggtggca tatgtgcgct ttgggctcct agatgaggat ggtaagaaga ctttctttcg
+     2101 ggggctggag agtcagacca aggtaggaag gagaataggg gctggggagg ggaaggggca
+     2161 agggaggtga ggtgggagac tcagtctcac cctatgtcct gtttctttct atgccccagc
+     2221 tggtgaatgg acagagccac atttccctct caaaggcaga gttccaggac gccctggaga
+     2281 agctgaatat gggcattact gacctccagg ggctgcgcct ctacgttgct gcagccatca
+     2341 ttgagtctcc aggtgggtga ctttccctta ttgtaacccc agacccttgc ctctgacctc
+     2401 tgagctaacc ctctgtcctc cggcaccaac accaccccac ttctcacatc tcatctcaga
+     2461 ctcaaaacca ggaaacaccc aggagacctg gtttctctcc aactctgtct ctgtgactcg
+     2521 gcccttttcc ctggctgagt ttatttattt ctttgctcgt tctgctcatt ccttcactcc
+     2581 tccagtggac atgtgttgtt caatgccccg tgctaggcct cagcatgcac agacatgttg
+     2641 gggaccagcc tcaacgccac ccgtagggtt cctgaagtcc attggtgaca caggaatgag
+     2701 aagagacagg ttaagagttc ataaagagtg ggggccaggg ggccaattgc aaaatggagg
+     2761 ctgcaaaagg ctcagagctc tggtctccac actatttttt gagtacagtc actcagatct
+     2821 aagaagcaga tgttcaggga gaaacagtga aagggaggca gtgggtcata ggcgtaatct
+     2881 atagcaatag agttttaaat gaatctcctt tgtgctcaaa cagcatgtct ttaaattatc
+     2941 ggagagtagc tggtggaagt gggcttagct agaagactgc atgtctgtcc aatgcttcaa
+     3001 aggagggtct ttctccttga acagagtgtt tacagataag acagggggtc tcactctgag
+     3061 catgggaaca tgatggcaat taggaggctt ttcttctcag aggcctcttg tggctttcca
+     3121 caacttattg tctcatattt ttatggacag tttatacagg caccccacaa gtccttttcc
+     3181 caacatgccc ccctcccttt tttttttttt aaccgctatt gctattatgg cttatttgtg
+     3241 gtgtttggtc tgttttcaga agtgtctttt gcatctgtag actaaaagta aacagcataa
+     3301 acagatacac attaaagtaa aatttgtaat agttgatcct ttaatggtct taatctgttt
+     3361 aagaggattt atgtttgaaa gtccgtcagt agctccaatg agaatgtcag tctcaggcag
+     3421 gagggttaaa tgagcctgag atgctttaaa aacctgtttt tttaaaattt ggttatattt
+     3481 aatgttaaat ttttattttt ttcttttaga tgatgtctaa ctttttaaaa atgatgttta
+     3541 gtagtattat acgaatgggg agttatgtag aaattggaag tatttcaatt acattgtact
+     3601 tctaattgat gttttaagtt tattgtacga tcttccattt aaataacagt ctgtctaaga
+     3661 tcatttgttt gatttgtcaa ttgttggtct atttgggtct gagaattcca caattttgag
+     3721 gaattttttg ttaactattt atatattttg tagtttgaac agaggagtgt aaagcaattc
+     3781 cagcagccgc agcagtagct gtgactgcaa taaggcccat aagactgtta taagggtaaa
+     3841 aataaatctc tttgttttgg taaacacttt tttttaaaac atttttgtga caatatgaat
+     3901 ggaaggagag gctttctaag gtctattgag ggaaaccagt atccaaactc ctttcttagt
+     3961 ttttatcagt aacacagatg tttttacacc gaacgtggaa ttaatacagg tgaaaaggtg
+     4021 acagttttga caagtaatag tttgagaatt aggtcgaatg tcaatatttt tgaccattaa
+     4081 cataaaagga gggttgacac aactctgaat gggcactgtt ttgttggaag aaaactgata
+     4141 cgcaaattga agtttttaac cttttttttt taaagataat atattttttt ctaaacttaa
+     4201 atatgagatt gggccattat taactttcat aatttggagt gtttagggcc tattattgga
+     4261 ttaattattt tgggatgtgg gccagctgta ctaaaattgg tccaaattat gggaaaatga
+     4321 gcacgttttt cagtgtaagt agtgttacct ttttgatagt atagtttctg ttttagtttt
+     4381 gtcttgtatt tattattttg atgggtacaa ttaactgtaa aggtcccctc aggggaccaa
+     4441 ttaatgacaa tttcatagga attattttgt agtaccatag tgtgatcaga gatgtaattt
+     4501 tttttaatta atatttttaa attatttgac cattgttaag gttgttggca cctctttttt
+     4561 gggggcttaa actgttaatt gaattgaact ctgtgaatga tccgggctcc atccagaaaa
+     4621 taaatgatag gatactggtc tttgattatg acctggaatt ttaactagtc aatgttgtcg
+     4681 gtagcctttt aggcaaccga tagttggcct tatgtaaaga ggggggaact gataacctat
+     4741 ggacacattt attaactttt ttttttttcc tttgggtgag agggcccatg agtatttgta
+     4801 ggcttaggga tccaaacgct attattaaca taaacttcaa ctgggggttt taaccatgtg
+     4861 acaggcctaa ttaaaggcag gaatgggaca catgcccaat aggtataatt ttgggctgtt
+     4921 gtagccacag gtttgttagg cgaggaggtc actgttttta ttttggcttt gtattctagg
+     4981 attagtaaat aacagaagac aaacatgagt ataattagta actttttttt ttagtaaaag
+     5041 agtgacctgt agtgttactt ggcatcttag tttactatat gttattaatg aggaacccca
+     5101 ctgggggtat gttaatttat tctagctaag cagttatgtt attagaagct gagaaggggg
+     5161 tgtttgttaa agtaacaggg cagaagaaag gcggatttaa gatacgagct taatacagtg
+     5221 tagcaggtat aggtagtagg caaagtgaga gaattaaaaa tgaataaatt atttggctta
+     5281 gacttttgtt tttttagtat aatgtctgag gcctgtgttg tttgtggaag tcgcattgtt
+     5341 gaggctgtag ttcctgtagg gtctttttta ggctggttca aatgtttttt tattttttaa
+     5401 ttttttatcc tttgatgagg atgtagtctt taggctggta ctggaaattt taggagtggc
+     5461 gtctgtgtta agagactttt tacaattttt aaagagcagg ttagtgtttt aagaaaaact
+     5521 tgtgttttat tttaatgttt agtttataga aaactggatg atatcttttt aactttagta
+     5581 aatacgttta cacacggaat tttttacaat tatcatttta aaacttgttt agatctttaa
+     5641 aacaaaatta aacaaccttt tttgtataaa ttttttataa ctttttttat gacttttaca
+     5701 gacaattttt aacatgtctt aactttttat gttttataat ttttttacta aaggtacatt
+     5761 tttataactt tttaaatttt tttacttttt tgtatttttt tgatttttgt cttagtcttt
+     5821 tttttacttt tattttttta aatgtgtaat aattagatga gtgttggtaa caatggatgt
+     5881 atgtacatat tttagttttt aaaatttagg gatgtgttta acatctgttt gccagaactg
+     5941 actaggttcc aattctttac ggttaacacc tattgaagga gggtatgtgc ctgtgagctg
+     6001 gtaatctggg cattgtggga taatttgttt agccagcctc tgtgtaagtt gaaattattt
+     6061 agataagttt ctccaatttt ggtggaataa tcgatgtgat tgggtggctt ggtcaagcag
+     6121 tgatgtcata acctgaaggt ctgcttgatt attgccgtaa gccaatgggc caggcagaga
+     6181 gctgtgggct cgaatgtgtg taataaaagt aggatgtgta ccttggtcta gtaattgttg
+     6241 aagttgaaga aaaagaccac acagagtggg ctccagagca aacttaaggc tgtaatagtt
+     6301 tttaaataaa tacacagaat aaccttagct ctctgaatgt tagtaaattc agatcaagtg
+     6361 attggattat gtggtctcca ccagactgtt gctttttcat gtttaccaga cccaccagta
+     6421 aaaacagcta tggctccttc caaaggggca tcacaagtaa tttttggaag aacctatgta
+     6481 gttaatttta agaattgaaa agtttttagg ataatgatta ttaatacatc caacaaattt
+     6541 tgttaaatta atctgtcatg taactgagtt aataaatgcc tgtttaacct gatttttatt
+     6601 tattggaact ataattttta ttgggctcag tgccacaaaa tttaataatt catatatgag
+     6661 cctgtccaat tagaattgcc atctgattta agtatactgt aagtgctttt atggtattat
+     6721 gtggcaaaaa ggaccattta actaaatcat cattttgaac aataaccccc attattgtgt
+     6781 ggttagtgtg aagtagggaa cacaatgaat tataaaggca agtctgagtc aatcctactg
+     6841 acctgggctt gctgaatttt gttttcaatt actgataact ctttcatggc ctcgggtgtt
+     6901 agttctctgt tactgcgtaa gttggtattt cccctcaata ttgagaagag attagacata
+     6961 gcataagtag gaattgctaa attgggccaa atccaattaa tatcttctaa caatttttga
+     7021 aaattattta aggttttgaa agaatctctt ctaatttgaa ccttttgagg cttaatggct
+     7081 ctatcctgta cttgtatttt caaatactga aaaggagtgg ttgtttgaat tttgtcaggt
+     7141 gctataagta attcagcatt tgtaattgtc ttttgcaaag attaataata ttgaataagt
+     7201 tggtctctac tttttgctgc acaaatctgg aaactgatct ctaacaggct ggatagttct
+     7261 gcctacaaaa gtttgacaaa ctgtgggact atttaacata ccctggggca aaactttcca
+     7321 atgatatttg gctgcaggtt ttttgttatt aacggcagga atggtaaagg caaatttttt
+     7381 gaaatctgcc tctgctaaag gaattgtaaa aaagcagtct tttaaatcta taataacaag
+     7441 cggtcagtct ttagggagca cagtggggga tgggagccca ggttgtaagg ctcccatcgg
+     7501 ttgaattaca gcgttgacgc catctaccgg actttttctt aattacaaat actggggaat
+     7561 tccaaggaga gaaagtgggt gaaatatatc ctttttttag tagtttattt tataaagcac
+     7621 ccccaacttt tccttaggga gcggccactg ttcaacccag acggggcgcc gggtcatcca
+     7681 ttttaaggga aattgctcct tcactgtaat aactgtaggg tgaacctgaa ttgccccatc
+     7741 tccataatga actgtgggtc gggcaataat gggcacggtg agccaagtct cgggctccct
+     7801 ccccctgcac ccactcggct gaggaggagg tggccattct ggacatttct ctacaggaac
+     7861 cgtgggctga acaatttttt gagtaggttt agggagactg gggagattgg cataaatcat
+     7921 cttcagactc tcctttttgt tagtactcgg tagaggtggt tcagagttct gattatcaaa
+     7981 ctcctctctc tcctcctctg actcagcctc attatctgtc tgaaaaggct ccagtgctgc
+     8041 atgcaccaat gaccaaagcg accaaacagg caaaggaatt tcctttcctt ctctatatgc
+     8101 tcttttaagg tcctttccaa ctccttctta atgttttaat ttcaaagttt cctgttttgg
+     8161 gaaccaaggg caaaattgtt ccatagcatg aaacaaatcc ataagatttt ccgtatcaac
+     8221 ttttacccca ccatgcatgc ttgaagagct gccgtaggaa gctcaaatac gtggtgtact
+     8281 tactttcagt ttttcccatt gtgtccctag ctttctctgg gcgccccgct tacctgtaga
+     8341 ggttaaaact tttatgtcct tgggagtcct ttgttcgttg gtcctctgtt tcacatgctt
+     8401 gagcgtttcc tcaccagatt cttttgggcc ccacgttggg cgccagaatg ttggggacca
+     8461 gcctcaacac cacctgtagg gtacctgaag tctggtggtg acaaaggaat gagaagagac
+     8521 aggttaagag ttcataaaga gtggaggcca gggggccaat tgcaaaatgg aggctgcaaa
+     8581 aggctcagag ctctggtctc cacactattt attgagtaca ataacttaga tctaagaagc
+     8641 agatgttcag ggcaaaacag tgaaagggta gcagtgcgtc acaggcataa tctacagcag
+     8701 aagcgcttta aatgaatctc ctttgtgctc aaacagcata tctttaactt atcggagagt
+     8761 agctagtggg agtgggctta actaggagcc tgcacgtctg tccacattcc aatgcttcaa
+     8821 aggagggtct ttctccttga atacagtgtt tacagataag agagagcagg tctcgctctg
+     8881 agcatggcaa ttaggaggct tttctcctca gaggcctctt gtggctttcc acaacttatt
+     8941 gtcccatatt tttatggcca gtttatacag gcaccccaca agtccttttc ccaacacaga
+     9001 caggaatacg gcagcctgtg ccctgggagc tcactgtctt gtgggaggga accactcaag
+     9061 ccactcccca cttgtcctcc tgtccctctc ttcttgggct ctgtccccca cctctctctg
+     9121 tcctttgtct tgcaggtggg gagatggagg aggcagagct cacatcctgg tattttgtgt
+     9181 catctccctt ctccttggat cttagcaaga ccaagcgaca ccttgtgcct ggggccccct
+     9241 tcctgctgca ggtttcttcc agaggggaag gatgagtagg gaggatgtgg tagttaggag
+     9301 ggctcagggt ctgaccactc tcttttgcct gccctccttt acctgcctag gccttggtcc
+     9361 gtgagatgtc aggctcccca gcttctggca ttcctgtcaa agtttctgcc acggtgtctt
+     9421 ctcctgggtc tgttcctgaa gtccaggaca ttcagcaaaa cacagacggg agcggccaag
+     9481 tcagcattcc aataattatc cctcagacca tctcagagct gcagctctca gtaggactcc
+     9541 tcggacccct gggagatggt gggggaaggg gaggagggtg agctggggtc ccaaggatcc
+     9601 atggcctgac ttggggggaa ggtggggtac ttggctctga gctactaccc tattcgcacc
+     9661 tgaccccctc tccaggtatc tgcaggctcc ccacatccag cgatagccag gctcactgtg
+     9721 gcagccccac cttcaggagg ccccgggttt ctgtctattg agcggccgga ttctcgacct
+     9781 cctcgtgttg gggacactct gaacctgaac ttgcgagccg tgggcagtgg ggccaccttt
+     9841 tctcattact actacatggt gtgcatgagc tggggagtca cggagggctg gggtgcaggg
+     9901 aagagccctc tgggtggggc tgggggggtt caaggctgag gctgtcccat gaagaggcaa
+     9961 ccactcttgt ccctcccatt cttggcccag atcctatccc gagggcagat cgtgttcatg
+    10021 aatcgagagc ccaagaggac cctgacctcg gtctcggtgt ttgtggacca tcacctggca
+    10081 ccctccttct actttgtggc cttctactac catggagacc acccagtggc caactccctg
+    10141 cgagtggatg tccaggctgg ggcctgcgag ggcaaggtga ccggggtcag gagagatggc
+    10201 acttgtgccg agggggttga ggacagggtg attgccaaca gggcatggat ttagcttggg
+    10261 ggcagtgagg ataccgggac tgaaggaagc tctcccactc tgaccgcccc cacctgccgc
+    10321 ccctgccagc tggagctcag cgtggacggt gccaagcagt accggaacgg ggagtccgtg
+    10381 aagctccact tagaaaccga ctccctagcc ctggtggcgc tgggagcctt ggacacagct
+    10441 ctgtatgctg caggcagcaa gtcccacaag cccctcaaca tgggcaaggt ttgtccagac
+    10501 cctctccaca gctctctcac ccctccatgg ctcatccccc tgcttccctg agccttgggc
+    10561 gcagcccctg gatcccactg aggctcccca cagtctcttc cccacttggc cctgtggtct
+    10621 ccatctcctg gctctgtatc ctttcctatc cccccatgtg ctgccctctc acctgtgccg
+    10681 agtgctcagt cctgcccctc agccacactt ggctcctagc attcctgcct ttcttgcagg
+    10741 tctttgaagc tatgaacagc tatgacctcg gctgtggtcc tgggggtggg gacagtgccc
+    10801 ttcaggtgtt ccaggcagcg ggcctggcct tttctgatgg agaccagtgg accttatcca
+    10861 gaaagagtga gaacagagaa ggaaggggag tgggtggcgg gaagataagg aaggaggaag
+    10921 ggcctgaggg gaccagctgg aagagtccgg gcaggaaggg ctgggcaggg gaaggggagg
+    10981 aggggaggag gccgagtgcc tgacggctgg actgcagcct ttctctctac caggactaag
+    11041 ctgtcccaag gagaagacaa cccggaaaaa gagaaacgtg aacttccaaa aggcgattaa
+    11101 tgagaaatgt gagttgcggg tgcctaggca gtagcttggg ctctccacct gggatccggg
+    11161 ttgggggtct gcctctctgc ccctcggctc cttgctgaac ccacgtgtgg tatttggggc
+    11221 cagagatccg aattccggga ttacgagtgg aaggtgggca gctctctcca gcagcctctc
+    11281 ttatgttgct ggtctcaagg ggtcggggcg ggggctgagg tgtatgtcct ttttgtcctc
+    11341 tcatgctcac ccccacctgg ccctgcagtg ggtcagtatg cttccccgac agccaagcgc
+    11401 tgctgccagg atggggtgac acgtctgccc atgatgcgtt cctgcgagca gcgggcagcc
+    11461 cgcgtgcagc agccggactg ccgggagccc ttcctgtcct gctgccaatt tgctgagagt
+    11521 ctgcgcaaga agagcaggga caagggccag gcgggcctcc aacgaggtga ggggctgggt
+    11581 ggggctaggg cacaggtggc ggcgcttgga aaggcagaac ggtcccctcc tcactcccgt
+    11641 ccaccgtggt cccccagccc tggagatcct gcaggaggag gacctgattg atgaggatga
+    11701 cattcccgtg cgcagcttct tcccagagaa ctggctctgg agagtggaaa cagtggaccg
+    11761 ctttcaaatg tgagagtgtg tgccggcccg gccttttctc tgtgctgtgt ctcggggcca
+    11821 gccggggtag acgggccttc tctgcctttc cctacacaga ttgacactgt ggctccccga
+    11881 ctctctgacc acgtgggaga tccatggcct gagcctgtcc aaaaccaaag gtgatgtcac
+    11941 cctgtctggg cctcaggtga ccctgcttcc atttccctgt accccagctc cctgttccct
+    12001 ttgctcttag tgtaggaaga gggtccagtg atctggggag gtctgtgcca gcgtgcagct
+    12061 ggcgtgggcc agagggcaga ggcggactga gacagagctg ggtcaccccc acccctccct
+    12121 cctgtggccc tgaagctttg atggcccctc tgatctctgc ccctgtgccc acgcttcctt
+    12181 tccctcaggc ctatgtgtgg ccaccccagt ccagctccgg gtgttccgcg agttccacct
+    12241 gcacctccgc ctgcccatgt ctgtccgccg ctttgagcag ctggagctgc ggcctgtcct
+    12301 ctataactac ctggataaaa acctgactgt gaggccccat aggagcctga gcatacagga
+    12361 gttgggggag ccagggccca gtgaggggtg gggaggctaa ccgggccagg actctggcca
+    12421 tcctcgtttt cctgccctca ggtgagcgtc cacgtgtccc cagtggaggg gctgtgcctg
+    12481 gctgggggcg gagggctggc ccagcaggtg ctggtgcctg cgggctctgc ccggcctgtt
+    12541 gccttctctg tggtgcccac ggcagccgcc gctgtgtctc tgaaggtggt ggctcgaggg
+    12601 tccttcgaat tccctgtggg agatgcggtg tccaaggttc tgcagattga ggtgaatgga
+    12661 gcacccctga atataagtcc ccgggccccc agctttgtcc tccaccctca gcactctctc
+    12721 tgctggccag gccaggggcc caacacccaa accaatgcct tggtctgttc ccatcttcta
+    12781 caattctgat ccaactctgt ccctggagtt gaaactcaaa gttctggggg agtctgcgct
+    12841 agcagggcag gctgtagtcc tgtgtgacct cacaaccatg ttttccctga gacagaagga
+    12901 aggggccatc catagagagg agctggtcta tgaactcaac cccttgggtg agtgaccctc
+    12961 tacctccagc cattggtttc ctaagtgggt acaggtggtg ggggatgtgg acagcaggac
+    13021 aggctgccaa cttcccccat ttccccagac caccgaggcc ggaccttgga aatacctggc
+    13081 aactctgatc ccaatatgat ccctgatggg gactttaaca gctacgtcag ggttacaggt
+    13141 gggagtgccc tttagtccct tcccagtggc caccttcgga ttcatgtggg acttgtggat
+    13201 ccctgcttgg tcccactccc cgtgagcctc tgacacagag tcctcagacc tccaccctct
+    13261 ccctcccatg tagcctcaga tccattggac actttaggct ctgagggggc cttgtcacca
+    13321 ggaggcgtgg cctccctctt gaggcttcct cgaggctgtg gggagcaaac catgatctac
+    13381 ttggctccga cactggctgc ttcccgctac ctggacaaga cagagcagtg gagcacactg
+    13441 cctcccgaga ccaaggacca cgccgtggat ctgatccaga aaggttctgg gtgcaagggc
+    13501 aagcaggagg ggggccagga aaggacagtt actggaagat ggacagccca ggaggctaca
+    13561 gagggaaaga aagggggccc ctgatgagga tggggagcat ggccttgggc tcaaacagca
+    13621 gaagggtgag tgtcacctga gcggccacct ctcctctcca aggctacatg cggatccagc
+    13681 agtttcggaa ggcggatggt tcctatgcgg cttggttgtc acgggacagc agcacctggt
+    13741 gagcttggga gagtggttcc agggttctga gggggtcagg gctggggcag gggtgggaca
+    13801 gagctggtat gatgggaggg tggataacca ggcacctggg ggcgtgggca taatgagaag
+    13861 caagtcctta tccccaaccc tcctttcctg ccctccaggc tcacagcctt tgtgttgaag
+    13921 gtcctgagtt tggcccagga gcaggtagga ggctcgcctg agaaactgca ggagacatct
+    13981 aactggcttc tgtcccagca gcaggctgac ggctcgttcc aggacccctg tccagtgtta
+    14041 gacaggagca tgcaggtgcg ggcatgctgg ggctggcccg agaagcgcct gtcggaggac
+    14101 tctctttgcc ccttccccct cctgtttgac atcttttctc cccttactag gggggtttgg
+    14161 tgggcaatga tgagactgtg gcactcacag cctttgtgac catcgccctt catcatgggc
+    14221 tggccgtctt ccaggatgag ggtgcagagc cattgaagca gagagtggta agttcagtgg
+    14281 cgtttctgcc ctctgctggc ccccagctct ctcccttttt cctcaggaac ccaggggtcc
+    14341 aggcccaaga ccctcctccc gttttcttcc aggaagcctc catctcaaag gcaaactcat
+    14401 ttttggggga gaaagcaagt gctgggctcc tgggtgccca cgcagctgcc atcacggcct
+    14461 atgccctgac actgaccaag gcgcctgtgg acctgctcgg tgttgcccac aacaacctca
+    14521 tggcaatggc ccaggagact ggaggtgagg ggtgaggcgc tcctggcagt gagcctgagg
+    14581 cccaggggac cttaggatcc ctgagtgtgc ccagagggag aggctggatg aagactcaga
+    14641 ggaggaatga agttataagc aggggtgggt tgggggagac tcaggagagc ccagcagggg
+    14701 gtggctaagg gccaggggac caggctcttc tccctgcctt cctgtttact cgtggtctcc
+    14761 cttcactttc agataacctg tactggggct cagtcactgg ttctcagagc aatgccgtgt
+    14821 cgcccacccc ggctcctcgc aacccatccg accccatgcc ccaggcccca gccctgtgga
+    14881 ttgaaaccac agcctacgcc ctgctgcacc tcctgcttca cgagggcaaa gcagagatgg
+    14941 cagaccaggc ttcggcctgg ctcacccgtc agggcagctt ccaaggggga ttccgcagta
+    15001 cccaagtagg ggccgtcccc gggctctggc gggggtgggt agtcctcaga ccaagggctt
+    15061 gcttgagtcc tggctcaacc tccctaggac acggtgattg ccctggatgc cctgtctgcc
+    15121 tactggattg cctcccacac cactgaggag aggggtctca atgtgactct cagctccaca
+    15181 ggccggaatg ggttcaagtc ccacgcgctg cagctgaaca accgccagat tcgcggcctg
+    15241 gaggaggagc tgcaggtgaa ccactccctg gtgaaccact ccctcgcctg ggtagccagg
+    15301 acacctgggc ctcgtggcca ggccagaagc cgtccccacc ctcccacccg tggaatcccc
+    15361 gcagcacttc ttcctggggt cttcggggga agactgactt cctggctgtg tgacctggag
+    15421 ctctgagctt cagttttctc acttgtagag taacatacac agagttcacc ctacagggtc
+    15481 gttagaaggc tgaagtgaga taattcatgt gctggtataa actttgtgga aatgtgaggt
+    15541 ggggagagga ggtggggctg ttttgaggaa ggagataagt tattggagcc gcaaaaacag
+    15601 gtttgcttgt gcccttctaa catcgccttc ccttttctgt tgctgaagtt ttccttgggc
+    15661 agcaagatca atgtgaaggt gggaggaaac agcaaaggaa ccctgaaggt gagggccagg
+    15721 gaaggggtgg ggccaggcac tggtggagga gagggtgtgg agtgagaggc ctgtgggcag
+    15781 aggcacatgg tccggggaag gaggcagaca cctcagggtt ggtgtcccgt gcttccgtcc
+    15841 tgggtgtttt tccccctgct tgctttcgct tgctctcccc atctctgggt acctgttgtt
+    15901 tcctttaccc gcctcagtgc tggtggctcc gaatcccact cctcagccca ggcctcttcc
+    15961 ctgaaccatg ggccccactc gtcccactcc cacagcacct cagacgaggc atgtcccaaa
+    16021 gcccttcttc attctgtgtc tcttgtctgg ctggtgggag cccctcccag ccaggagccc
+    16081 agccactact ctagaggccg tgttagtggc ccctctccca agcctgtcct tatgtcccta
+    16141 gtgactcctc ctctgctccc ctgctgcctg tggcccttgg tgctgcatcc tagattctgt
+    16201 gctgagacgg ccttctccct acctggaact tctctctacc tcctgtctcc cctgtctgat
+    16261 ccactgtcca cacggcagtg acactgacct tccaaaagcc ccagccagat cagccttggg
+    16321 gaaaagtcac tccccgctgc ccacggctca gatggctggg cctctgccca cccctccggc
+    16381 cagacagctc tccttgtcta cacagatccc cttgcctttc ctgtccttcc ctgcttcttg
+    16441 gcccacagga caagctcttt cttctccttc aagccttggc cagaagcctt tcctgagctt
+    16501 ttcagtccag cctcttccca gcacagtctg gagtgttggc ctctgggggc aggcccctgc
+    16561 ttctttacct ctctgtctcg cctgacgcct gtggcgaatg tggtgccact cgtgtgtgtg
+    16621 gactgtgcag tgacggggag gaaaaggggc tgaaggcctc aaatcctgta gcccagggag
+    16681 atgcccttag gtatggcacc agagaggtct gtggcctcac atgtcccacg tcctctccct
+    16741 gccccttgct gagccaggtc cttcgtacct acaatgtcct ggacatgaag aacacgacct
+    16801 gccaggacct acagatagaa gtgacagtca aaggccacgt cgagtacacg agtgagtgtg
+    16861 ggggttggga ggccttgggg ccaggcaggg gctggcgcag ggagccgggt ggccatccca
+    16921 gccctcctca caatgcttcc ctgtgcagtg gaagcaaacg aggactatga ggactatgag
+    16981 tacgatgagc ttccagccaa ggatgaccca gatgcccctc tgcagcccgt gacacccctg
+    17041 cagctgtttg agggtcggag gaaccgccgc aggagggagg cgcccaaggt ggtggaggag
+    17101 caggagtcca gggtgcacta caccgtgtgc atctggtggg cgccgggagc tgccctgggc
+    17161 caggggaggg agggcaggac ccaggctggg gctgggcttc tggagcccgc gcaggcagaa
+    17221 cctggacgac agctcacacg tctccacagg cggaacggca aggtggggct gtctggcatg
+    17281 gccatcgcgg acgtcaccct cctgagtgga ttccacgccc tgcgtgctga cctggagaag
+    17341 gtgtggtcag ccacccaggg caaccccctc tgtcccaggt actgagccct gtcatgtgca
+    17401 gggcctgtga ccaactcccc ttttccacag ctgacctccc tctctgaccg ttacgtgagt
+    17461 cactttgaga ccgaggggcc ccacgtcctg ctgtattttg actcggtgag tggggagaga
+    17521 tgaggcagga agggactcga tggcaccggg tttactgagt atgcgttagg aggtttctca
+    17581 ggagacagct gtgtcagcgg ctggtgctct tgagaacttg tgatgtcatc agagagaagg
+    17641 acaagaatgt gagcccgtga gacacagcag agtaaggggc agacctgcag gcggcaggga
+    17701 ccgatgccag tcagcaggga ccctcagggt ttgagaggga gtctttccta atgctggttt
+    17761 tattcagctt gaggggctgc ctttgttttt ttgttgaact tcctatcttt tttttaatat
+    17821 taaagcgtat tttcctttac aaagtgatgg tggccataga tgatagttgt atttgtcttt
+    17881 tcacgacctt atttggctaa aatagttatc aaccctctta cggctctcaa aacattttta
+    17941 tttatttatt tagtaaagac agggtctcgc tctgttgccc aggctggtct tgaactcccg
+    18001 gcctcaagcg atcctctggc ctaggccttt caaagtaccg gatttacagg ccagagccac
+    18061 catgcccggc cttcaaaaaa agttttggaa catttactgt aacctctggg agaaaatgtg
+    18121 agaaaggtgt ggtggctgtc attagccagc tgtttgtagg tcagggagac ccctacccag
+    18181 tgtgtgcaga ggggccagcc cccatcagct ggggaagcct ggctgacaca tctgggttga
+    18241 acacaataga aaacacagag ccaacaagat tcccggatag ggagctgacg gtgcagcagc
+    18301 ctagctcagg agggacactg gcacggcacc gtgtggactg ggcccgcgtg ggcacgagga
+    18361 ggggtcaggc ctgggacctg agtcgggggg tcaggcagga tgacagaacc tgcagttagg
+    18421 ttgtggcaaa taaaggagga cccagttgta tccatgacaa agatgaggcc gcgaggaggg
+    18481 cgagtgggtt tgggggcagg cagagtgcct tggagaactt acaggtcctg ccacaatcct
+    18541 aatgcaagga tggagctgca agttcagttt gggaatcatc agcctggatt ggtttggtgg
+    18601 aagccaggga gtggttgaga cccccacagg ggagctctga ggaaggaagt tccgaaggag
+    18661 ggaacgtaag aaatgaccag gtcagaacca agggtggtcc agaagctaac ccttagctta
+    18721 gggacagttt cacagagaac acgtccatga tgcaagactc tgctgagggc ctggagcagt
+    18781 gaagactggg gcaaggtcac cctctgggaa gtgaagtcac cagagacctt gcggagcagc
+    18841 tttgagagtt ctctgagtag gaaggtaaca gaatgtgaag gacactggag agaaggccaa
+    18901 taggaagcaa acaaaaacag gccaaggaaa cccagtacag ggggctgcag ggcccaggga
+    18961 gtgggtccct catctctcct ccccacgctt ggccaggtcc ccacctcccg ggagtgcgtg
+    19021 ggctttgagg ctgtgcagga agtgccggtg gggctggtgc agccggccag cgcaaccctg
+    19081 tacgactact acaaccccgg tgagcactgc aggacaccct gaaattcagg agaactttgg
+    19141 cataggtgcc ctcctatggg acaatggaca ccggggtagt gagggggcag agagccctgg
+    19201 ggctccctgg gactgaggag gcagaatgga ggggcctgtg ccctaactcc tctctgttct
+    19261 ccagagcgca gatgttctgt gttttacggg gcaccaagta agagcagact cttggccacc
+    19321 ttgtgttctg ctgaagtctg ccagtgtgct gagggtgaga ctgagggcct ggggcggggc
+    19381 agtggaggcg ggatggccgg ggcccccccc acactgtctg atgggttccc caacttcagg
+    19441 gaagtgccct cgccagcgtc gcgccctgga gcggggtctg caggacgagg atggctacag
+    19501 gatgaagttt gcctgctact acccccgtgt ggagtacggt cagtcttccc accgaggccc
+    19561 tggcctgacc ctccctcggg gaccggccgt tttggtctct ctgggtgtag cctgctcctc
+    19621 ttacaggtca tgcacgcagc ctgtttgctc tgacaccaac ttcctaccct ctcagcctca
+    19681 aagtaactca cctttccccc ttctcctcac cccctcttag gcttccaggt taaggttctc
+    19741 cgagaagaca gcagagctgc tttccgcctc tttgagacca agatcaccca agtcctgcac
+    19801 ttcagtatga agcaaaccgg agaggcgggc agggctgggg ggagacaggg aggctgaggt
+    19861 gtggccgagg acctgaccat ctggaagtgt gaaaatcccc ttgggctgtc agaagccttg
+    19921 ggcttggcca taaataggga ggcagtggca cctctccatg ggggtggcga aggtggaatg
+    19981 agaggatcta cacagagtcc ccagcctggg ctcaccctgc accttctctt cccctctgac
+    20041 cacttttgcg cacgtcatcc ccgcagccaa ggatgtcaag gccgctgcta atcagatgcg
+    20101 caacttcctg gttcgagcct cctgccgcct tcgcttggaa cctgggaaag aatatttgat
+    20161 catgggtctg gatggggcca cctatgacct cgagggacag tgagtcatct ggtcccctca
+    20221 gtctcttgtc ctccccatgc ctcgccacct aggccttgcc cctcagaagc cagatgcctg
+    20281 tgctctccgt ttccacctgc catcctcccg agccctgctg actgcccctt tgccccctgc
+    20341 agcccccagt acctgctgga ctcgaatagc tggatcgagg agatgccctc tgaacgcctg
+    20401 tgccggagca cccgccagcg ggcagcctgt gcccagctca acgacttcct ccaggagtat
+    20461 ggcactcagg ggtgccaggt gtgagggctg ccctcccacc tccgctggga ggaacctgaa
+    20521 cctgggaacc atgaagctgg aagcactgct gtgtccgctt tcatgaacac agcctgggac
+    20581 cagggcatat taaaggcttt tggcagcaaa gtgtcagtgt tggc
+//
+
