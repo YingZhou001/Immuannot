@@ -89,13 +89,13 @@ def mergeInterval(a, b, cutoff) :
     if y0 < x0 :
         tmp = x0
         x0 = y0
-        y0 = x0
+        y0 = tmp
     x1 = int(x1)
     y1 = int(y1)
     if y1 < x1 :
         tmp = x1
         x1 = y1
-        y1 = x1
+        y1 = tmp
     if y0 < x1 or x0 > y1 :
         return([1, b])
     else :
